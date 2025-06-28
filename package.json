@@ -1,0 +1,11 @@
+{
+  "name": "tailwind-theme",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -c tailwind.config.js -i ./css/tailwind.css -o ./css/output.css --watch --poll"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
